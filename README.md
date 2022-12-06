@@ -16,19 +16,19 @@ Vous devrez créer deux fichiers :
 
 * id_smtp.php **personnellement j'ai choisi Outlook**
 
-<pre><code>P`<?php
+<pre><code><?php
 $mdpSmtp = 'mot de passe';
 $loginSmtp = 'mail';
-?>`</code></pre>
+?></code></pre>
 
 
 * ./utils/connectBdd.php
 
-<pre><code>`<?php
+<pre><code><?php
     //fichier de connexion à la BDD
     $bdd = new PDO('mysql:host=localhost;dbname=dataBaseNom','nom_utilisateur','mot_de_passe',
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-?>`</code></pre>
+?></code></pre>
 
 
 <https://fabien.adrardev.fr/acceuil>
