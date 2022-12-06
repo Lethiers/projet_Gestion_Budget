@@ -15,23 +15,21 @@ Quels est le but du site :
 Vous devrez créer deux fichiers :
 
 * id_smtp.php **personnellement j'ai choisi Outlook**
-
-<pre><code><?php
+`
+<?php
 $mdpSmtp = 'mot de passe';
 $loginSmtp = 'mail';
-?></code></pre>
-
-
+?>
+`
 * ./utils/connectBdd.php
-
-<pre><code><?php
+`<?php
     //fichier de connexion à la BDD
     $bdd = new PDO('mysql:host=localhost;dbname=dataBaseNom','nom_utilisateur','mot_de_passe',
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-?></code></pre>
+?>
+`
 
-
-<https://fabien.adrardev.fr/acceuil>
+Le site est disponible ici => <https://fabien.adrardev.fr/acceuil> <= 🦄
 
 N’hésite pas à m’envoyer un message depuis le site si tu as besoin de renseignement 😉
 
