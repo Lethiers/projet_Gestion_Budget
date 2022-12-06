@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputComparaison{
+    border: solid 3px black;
+    cursor: pointer;
+    width: auto;
+    height: 3.5vh;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+.container{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    padding: 2vh;
+}
+.container-first{
+    padding-bottom: 0.2vh;
+    padding-right: 0.2vh;
+    background-color: #2ac290;
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-self: center;
+    margin: 3vh;
+}
+
+h1,p{
+    text-align: center;
+}
+
+#global{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+table{
+    margin: 5vh;
+    border-collapse: collapse;
+}
+th{
+    width: auto;
+    height: 3vh;
+    margin: 2vh;
+    padding: 2vh;
+    border: medium solid #2ac290;
+    border-radius: 5%;
+    cursor: pointer;
+}
+td {
+    text-align: center;
+    width: auto;
+    height: 3vh;
+    margin: 2vh;
+    padding: 2vh;
+    border: medium solid rgb(111,113,114);
+}
+
+.hidden{
+    display: none;
+}
+
+.afficher{
+    display: block;
+}
+
+#retour{
+    cursor: pointer;
+    color: #2ac290;
+    text-decoration: underline;
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+
+
+@media screen and (max-width: 992px) {
+    #global{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

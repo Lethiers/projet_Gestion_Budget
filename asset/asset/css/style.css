@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body{
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    /* background: rgb(2,0,36); */
+    /* background-image: linear-gradient(to right bottom, #1ea0ac, #00b2a6, #2ac290, #6cce6e, #aad647); */
+    height: 100%;
+    width: auto;
+}
+h1 h2 h3 p label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 8vh;
+    height: 8vh;
+    margin-top: 1vh;
+}
+
+
+.container-menu{
+    margin: 2vh;
+    background-color: #00b2a6;
+    border: solid 3px black;
+    width: 11vh;
+    height: 4.1vh;
+    display: flex;
+    flex-direction: row;
+}
+.container-menu :hover{
+    width: 10.5vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+
+.container-bouton{
+    margin: 2vh;
+    background-color: #00b2a6;
+    border: solid 3px black;
+    width: 10.5vh;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-bouton :hover{
+    width: 11vh;
+    height: 4.5vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #79d8b9;
+    /* text-align: center; */
+}
+
+.bouton-menu{
+    border: solid 3px black;
+    cursor: pointer;
+    width: 10vh;
+    height: auto;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    align-content: center;
+}
+
+.bouton{
+    border: solid 3px black;
+    cursor: pointer;
+    width: 10vh;
+    height: 3.5vh;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+
+.bouton :hover{
+    background-color: red;
+    color: #00b2a6;
+}
+
+input{
+    border: 3px solid black;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+/* a :hover{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} */

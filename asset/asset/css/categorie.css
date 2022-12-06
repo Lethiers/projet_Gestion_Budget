@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.container-first{
+    background-color: #2ac290;
+    border: 2px solid black;
+    width: 50.8vh;
+    height: 50.8vh;
+    display: flex;
+    align-self: center;
+    margin: 10vh;
+}
+
+.container-operation{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    width: 25vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.container-first-operation{
+    background-color: #2ac290;
+    border: 2px solid black;
+    width: 25.8vh;
+    height: auto;
+    display: flex;
+    align-self: center;
+    /* margin-top: 10vh; */
+    margin: 2vh;
+    padding-bottom: 0.1vh;
+    padding-right: 0.1vh;
+}
+
+
+
+#select-cat{
+    width: 30vh !important;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+
+a:hover{
+    color: #2ac290;
+}
+
+
+#divCat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 992px) {
+    #divCat{
+        display: flex;
+        flex-direction: column;
+    }
+}

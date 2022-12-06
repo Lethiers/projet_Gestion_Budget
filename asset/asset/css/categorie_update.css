@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+}
+h1{
+    text-align: center;
+}
+
+select{
+    margin-top: 5vh;
+}
+input{
+    margin-top: 5vh;
+}
+
+
+.container{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+.container-first{
+    background-color: #2ac290;
+    border: 2px solid black;
+    width: 50.8vh;
+    height: 50.8vh;
+    display: flex;
+    align-self: center;
+    margin: 10vh;
+}
+
+#contenuForm{
+    background-color: red;
+}

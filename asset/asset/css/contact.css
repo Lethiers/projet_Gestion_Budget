@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea{
+    resize: none;
+    margin-top: 2vh;
+}
+
+
+.container{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    width: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1vh;
+}
+.container-first{
+    background-color: #2ac290;
+    border: 2px solid black;
+    width: 50.8vh;
+    height: auto;
+    display: flex;
+    align-self: center;
+    margin: 10vh;
+    padding-bottom: 0.1vh;
+    padding-right: 0.1vh;
+}
+
+.logo{
+    margin-top:2vh;
+    width: auto;
+    height: 20vh;
+}

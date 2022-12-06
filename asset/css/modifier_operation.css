@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    width: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-first{
+    background-color: #2ac290;
+    border: 2px solid black;
+    width: 50.8vh;
+    height: auto;
+    display: flex;
+    align-self: center;
+    margin: 10vh;
+    padding-bottom: 0.2vh;
+}
+
+#cat-global{
+    width: 20vh;
+}
+#cat-util{
+    width: 20vh;
+}
+h1{
+    text-align: center;
+}
+select{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 30vh !important;
+}

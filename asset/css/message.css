@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    width: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1vh;
+}
+.container-first{
+    background-color: #2ac290;
+    border: 2px solid black;
+    width: 50.8vh;
+    height: auto;
+    display: flex;
+    align-self: center;
+    margin: 10vh;
+    padding-bottom: 0.1vh;
+    padding-right: 0.1vh;
+}
+
+.containerGlbal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#supp{
+    color: red;
+}
+#supp:hover{
+    color: salmon;
+}
+
+#repondre{
+    color: green;
+}
+#repondre:hover{
+    color: greenyellow;
+}

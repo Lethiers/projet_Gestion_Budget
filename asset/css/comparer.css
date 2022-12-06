@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+p,h1,h2,h3,input,li{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+}
+
+.containerSelect{
+    text-align: center;
+    padding: 5vh;
+    width: 60vh;
+    height: 90vh;
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+    border: solid 1px lightgray;
+    border-radius: 5px 5px;
+    height: auto;
+    color: black;   
+    padding-bottom: 5vh;
+    margin-right: 5vh;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+    border: solid 1px lightgray;
+    border-radius: 5px 5px;
+    width: 60vh;
+    height: auto;
+    color: black;   
+    padding-bottom: 5vh;
+    margin-left: 5vh;
+}
+
+input{
+    cursor: pointer;
+    margin: 1vh;
+}
+
+.bouton{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    color: black;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+select{
+    width: 22vh;
+    height: auto;
+  }
+
+
+    #plots{
+    margin:auto;
+    background-color: #2e2d2d;
+    }
