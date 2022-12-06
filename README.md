@@ -1,7 +1,7 @@
 # projet_Gestion_Budget 📊
 
 site pour gérer son budget
-
+=
 
 Quels est le but du site :
 
@@ -15,19 +15,18 @@ Quels est le but du site :
 Vous devrez créer deux fichiers :
 
 * id_smtp.php **personnellement j'ai choisi Outlook**
-`
-<?php
+`<?php
 $mdpSmtp = 'mot de passe';
 $loginSmtp = 'mail';
-?>
-`
+?>`
 * ./utils/connectBdd.php
-`<?php
+:`<?php
     //fichier de connexion à la BDD
     $bdd = new PDO('mysql:host=localhost;dbname=dataBaseNom','nom_utilisateur','mot_de_passe',
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 ?>
 `
+> Le site
 
 Le site est disponible ici => <https://fabien.adrardev.fr/acceuil> <= 🦄
 
