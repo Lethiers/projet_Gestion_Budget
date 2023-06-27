@@ -33,7 +33,4 @@ $loginSmtp = 'mail';
 `
 > Le site
 
-Le site est disponible ici => <https://fabien.adrardev.fr/acceuil> <= 🦄
-
-N’hésite pas à m’envoyer un message depuis le site si tu as besoin de renseignement 😉
 
